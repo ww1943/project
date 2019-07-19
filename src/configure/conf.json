@@ -1,0 +1,105 @@
+{
+    "text":[
+        {
+            "title":"网络安全态势感知",
+            "left":"20px",
+            "top":"20px",
+            "fontSize":"50px",
+            "fontWeight":"bold",
+            "color":"#fff",
+            "textShadow":"1px 1px 4px #0064ff"
+        },
+        {
+            "title":"Network Security Situation Awareness",
+            "left":"20px",
+            "top":"80px",
+            "fontSize":"30px",
+            "fontWeight":"normal",
+            "color":"#fff",
+            "textShadow":"1px 1px 4px #0064ff"
+        }
+    ],
+    "development":true,
+    "position":{"width":1920,"height":969,"list":[{"area_name":"龙岗区","center":"","list":[{"x":61.302083333333336,"y":36.01651186790505},{"x": 37.864583333333336, "y": 53.86996904024768}]}]},
+    "bar":[
+        {  
+            "title":"威胁类型TOP5",
+            "left":"20px",
+            "top":"150px",
+            "width":"280px",
+            "height":"160px",
+            "backgroundColor":"",
+            "backImg":"bar1.png",
+            "ajaxUrl":"/static_list"
+        }
+    ],
+    "line":[
+        {
+            "title":"安全指数",
+            "left":"20px",
+            "top":"600px",
+            "width":"280px",
+            "height":"200px",
+            "lineColor":["red","yellow","pink"],
+            "areaColor":[
+                {"from":"red","to":"transparent"},
+                {"from":"yellow","to":"transparent"},
+                {"from":"pink","to":"transparent"}
+            ],
+            "legend":{
+                "icon": "rect",
+                "itemWidth": 14,
+                "itemHeight": 5,
+                "data":["高危","中危","低危"],
+                "top": 0,
+                "right":0,
+                "textStyle": {
+                    "color": "#ffffff"
+                }
+            },
+            "backgroundColor":"",
+            "panelPosition":{
+                "top":40,
+                "bottom":30,
+                "left":"10%",
+                "right":0
+            },
+            "xAxisLine":{
+                "show":true,
+                "color":"#eee"
+            },
+            "yAxisLine":{
+                "show":false,
+                "color":"#eee"
+            },
+            "xAxisLable":{
+                "show":true,
+                "color":"#eee",
+                "fontSize":12
+            },
+            "yAxisLable":{
+                "show":true,
+                "color":"#eee",
+                "fontSize":12
+            },
+            "ajaxUrl":"/line_list"
+        }
+    ],
+    "attackEvent":{
+        "low":{
+            "src":{
+                "backImg":"low.png",
+                "showDetail":true
+            },
+            "dst":{
+                "backImg":"circle.gif",
+                "showDetail":true
+            },
+            "line":{
+                "color":"",
+                "speed":"",
+                "type":""
+            }               
+        }
+    }
+}

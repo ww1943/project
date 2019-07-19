@@ -1,0 +1,82 @@
+.textGroup > p {
+  position: absolute;
+}
+.backClick {
+  width: 100%;
+  height: 100%;
+}
+.backClick > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.imgGroup > img {
+  position: absolute;
+}
+.barPanel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.barPanel > p {
+  height: 33px;
+  font-size: 22px;
+  font-family: HelveticaNeue-Bold;
+  font-weight: 700;
+  color: #fff;
+  line-height: 29px;
+  text-shadow: 1px 1px 4px #0064ff;
+  margin-bottom: 18px;
+  white-space: nowrap;
+  text-align: left;
+}
+.barPanel .barGroup {
+  position: relative;
+}
+.barPanel .barGroup > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.barPanel .barGroup > ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.barPanel .barGroup > ul > li {
+  position: relative;
+}
+.barPanel .barGroup > ul > li > span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 13px;
+  line-height: 15px;
+}
+.barPanel .barGroup > ul > li ._name {
+  left: 130px;
+}
+.barPanel .barGroup > ul > li ._value {
+  left: 20px;
+}
+.attackLine {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.linesGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.linesGroup > div {
+  width: 100%;
+  height: 100%;
+}
